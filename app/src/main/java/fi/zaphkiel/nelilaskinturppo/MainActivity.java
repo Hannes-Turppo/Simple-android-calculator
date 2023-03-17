@@ -33,24 +33,24 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void reduceNumbers(View view) {
-        number1 = Integer.parseInt(String.valueOf(textInput1.getText().toString()));
-        number2 = Integer.parseInt(String.valueOf(textInput2.getText().toString()));
+        number1 = Integer.parseInt((textInput1.getText().toString()));
+        number2 = Integer.parseInt((textInput2.getText().toString()));
         answer = number1 - number2;
 
         textOutput.setText(String.valueOf(answer));
     }
 
     public void multiplyNumbers(View view) {
-        number1 = Integer.parseInt(String.valueOf(textInput1.getText().toString()));
-        number2 = Integer.parseInt(String.valueOf(textInput2.getText().toString()));
+        number1 = Integer.parseInt((textInput1.getText().toString()));
+        number2 = Integer.parseInt((textInput2.getText().toString()));
         answer = number1 * number2;
 
         textOutput.setText(String.valueOf(answer));
     }
 
     public void divideNumbers(View view) {
-        number1 = Integer.parseInt(String.valueOf(textInput1.getText().toString()));
-        number2 = Integer.parseInt(String.valueOf(textInput2.getText().toString()));
+        number1 = Integer.parseInt((textInput1.getText().toString()));
+        number2 = Integer.parseInt((textInput2.getText().toString()));
         answer = number1 / number2;
 
         textOutput.setText(String.valueOf(answer));
